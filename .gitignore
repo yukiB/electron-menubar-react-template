@@ -8,3 +8,4 @@
 /node_modules/*
 /resources/config/*.json
 /build/*
+/*-x64/*

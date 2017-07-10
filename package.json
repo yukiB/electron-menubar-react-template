@@ -4,9 +4,8 @@
   "description": "",
   "main": "src/jsx/app.js",
   "scripts": {
-    "compile": "gulp compile",
-    "build": "electron-packager . Splarm --platform=darwin --arch=x64 --version=0.31.0 --icon=./image/ika.icns",
-    "start": "electron ."
+    "compile": "gulp",
+    "build": "electron-packager . MenubarTemplate --platform=darwin,win32 --arch=x64 --version=1.2.5"
   },
   "keywords": [],
   "author": "yukiB",
@@ -23,6 +22,7 @@
     "browserify": "^14.4.0",
     "electron": "^1.6.11",
     "electron-connect": "^0.6.1",
+    "electron-packager": "^8.7.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-cssmin": "^0.2.0",

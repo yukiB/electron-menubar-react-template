@@ -24,8 +24,8 @@ Install electron-packager,
 npm i electron-packager -g
 ```
 
-then package app for OSX
+then package app for OSX, Win
 
 ```
-electron-packager . MenubarTemplate --platform=darwin --arch=x64 --version=0.31.0 
+npm run build
 ```
