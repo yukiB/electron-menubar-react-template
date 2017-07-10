@@ -4,28 +4,13 @@ Electron's menubar sample using react through gulp.
 
 ## Setup
 
-Install packages,
-
 ```
+npm install -g gulp-cli electron-prebuilt
 npm install
-```
-
-then compile jsx and run Electron project
-
-```
 gulp
 ```
 
-## App distribution
+# Icon
 
-Install electron-packager,
-
-```
-npm i electron-packager -g
-```
-
-then package app for OSX
-
-```
-electron-packager . MenubarTemplate --platform=darwin --arch=x64 --version=0.31.0 
-```
+If you want to set original icon in the menu bar,
+you set the `IconTemplate.png` file at root dir.
